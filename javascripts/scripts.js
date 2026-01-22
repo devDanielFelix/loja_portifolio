@@ -8,7 +8,7 @@ const Products = [
     },
 
     {
-         image: "catalogo/New_England_Patriots_jersey_Brady.jpg",
+        image: "catalogo/New_England_Patriots_jersey_Brady.jpg",
         name: "White_New_England_Patriots",
         price: 349.99,
         category: "Jerseys",
