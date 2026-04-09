@@ -44,3 +44,9 @@ header .container {
   height: 50px;
   
 }
+
+.footer {
+  padding-top: 3rem;
+  text-align: justify;
+  justify-content: space-between;
+}
