@@ -5,48 +5,55 @@
   font-style: normal;
 }
 
+/*--reset--*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*--end reset--*/
+
+.row {
+    margin: 10px;
+}
+
 body {
-  margin: 0;
-  padding-top: 80px;
+    min-height: 100vh;
+    padding-bottom: 100px;
+    position: relative;
 }
 
-.container {
-  width: 1440px;
-  max-width: 90%;
-  margin: auto;
-  padding: 0 16px;
-}
 
-ul {
-  margin: 0;
-  padding: 0;
-}
-
-header {
-  background-color: #fff;
-  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.15);
-  height: 80px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1;
-}
-
-header .container {
+.nav-container {
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  height: 100%;
+}
+
+header .container-header {
+  background-color: rgb(255, 146, 146);
+  border-color: rgb(172, 172, 172);
+  border-style: solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
 }
 
 .aaron-image {
   height: 50px;
-  
 }
 
-.footer {
-  padding-top: 3rem;
-  text-align: justify;
-  justify-content: space-between;
+/*--rodapé--*/
+footer {
+    text-align: center;
+    background-color: #191919;
+    color: #fff;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin-bottom: 0;
 }

@@ -15,7 +15,7 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
     />
     <link rel="stylesheet" href="css/styles.css" />
-    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/cards.css" />
 
     <title>Aaron Store</title>
   </head>
@@ -50,18 +50,45 @@
           </nav>
         </div>
       </div>
-
-      <div class="container"></div>
     </header>
 
     <main>
-      <div class="container-title">
-        <h1 class="main-title">Welcome to Aaron Store</h1>
-        <p class="main-description">find a product</p>
-      </div>
+      <div id="text-container" class="row">
+            <div class="cards-container">
+                <h1>Bem-vindo à Aaron Store</h1>
+                <p>
+                    Explore nossa seleção cuidadosamente escolhida de camisas esportivas de alta qualidade,
+                    projetadas para desempenho e estilo. Trabalhamos com marcas renomadas para garantir conforto e durabilidade em cada peça.
+                    Navegue em nossa loja hoje e encontre a camisa perfeita para expressar seu estilo enquanto você pratica seu esporte favorito!
+                </p>
+            </div>
 
-      <div class="container-cards">
-        <section class="cards" id="jersey">
+
+      <div id="events-container" class="col-md-12">
+            <h3 class="subtitle">Veja os produtos em destaque:</h3>
+            <div id="cards-container" class="row">
+                <div class="card col-md-3">
+                    <img src="catalogo/Denver_broncos_Jersey_Sutton.jpeg" class="card-image" alt="Jersey Sutton Orange">
+                    <div class="card-body">
+                        <p class="card-description">Denver Broncos Sutton</p>
+                        <h6 class="card-title">Jersey Denver Broncos</h6>
+                        <p class="card-price">R$ 299,99</p>
+                       <button class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="card col-md-3">
+                    <img src="catalogo/New_England_Patriots_Jersey_TomBrady.jpeg" class="card-image" alt="Jersey Tom Brady New England Patriots">
+                    <div class="card-body">
+                        <p class="card-description">New England Patriots Tom Brady</p>
+                        <h6 class="card-title">Jersey New England Patriots</h6>
+                        <p class="card-price">R$ 299,99</p>
+                        <button class="btn btn-primary">Add to Cart</button>  
+                    </div>
+                </div>
+            </div>
+
+     <!--  <div class="container-cards">
+        <section id="jersey" class="card">
           <div class="card col-md-3">
             <img
               src="catalogo/Denver_broncos_Jersey_Sutton.jpeg"
@@ -74,7 +101,7 @@
             <button class="btn btn-primary">Add to Cart</button>
           </div>
         </section>
-      </div>
+      </div> -->
     </main>
 
     <footer>
@@ -86,6 +113,5 @@
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
     <script src="scripts/products.js"></script>
-
   </body>
 </html>
