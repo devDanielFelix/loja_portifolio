@@ -30,13 +30,11 @@ body {
 }
 
 header .container-header {
-  background-color: rgb(255, 146, 146);
-  border-color: rgb(172, 172, 172);
-  border-style: solid;
+  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.15);
+  
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 0;
 }
 
 .aaron-image {
