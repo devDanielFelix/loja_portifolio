@@ -15,4 +15,3 @@ const Products = [
         team: "New England Patriots"
     }
 ];
-
