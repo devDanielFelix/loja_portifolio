@@ -13,5 +13,13 @@ const Products = [
         price: 349.99,
         category: "Jerseys",
         team: "New England Patriots"
+    },
+
+    {
+        image: "catalogo/Buffalo_Bills_Jersey_Allen.jpg",
+        name: "Blue_Buffalo_Bills",
+        price: 349.99,
+        category: "Jerseys",
+        team: "Buffalo Bills"
     }
 ];
