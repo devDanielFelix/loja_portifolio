@@ -1,0 +1,39 @@
+.carousel {
+    position: relative;
+    width: 100%;
+    
+    margin: auto;
+    overflow: hidden; /* Esconde as imagens que não estão em foco */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out; /* Suaviza o movimento */
+    width: 100%;
+}
+
+.carousel-item {
+    min-width: 100%; /* Garante que cada imagem ocupe o carrossel todo */
+    object-fit: cover;
+    height: 400px;
+}
+
+/* Botões de navegação */
+.btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background 0.3s;
+}
+
+.btn:hover { background: rgba(0, 0, 0, 0.8); }
+.prev { left: 10px; }
+.next { right: 10px; }
