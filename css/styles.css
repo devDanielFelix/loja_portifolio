@@ -17,12 +17,14 @@
   margin: 0%;
   text-align: center;
   padding: 5%;
+  color: #FFCC00;
 }
 
 body {
     min-height: 100vh;
     padding-bottom: 100px;
     position: relative;
+    background-color: #0f0f0f;
 }
 
 
@@ -32,8 +34,8 @@ body {
 }
 
 header .container-header {
+  background-color: #FFCC00;
   box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.15);
-  
   display: flex;
   justify-content: space-between;
   align-items: center;
