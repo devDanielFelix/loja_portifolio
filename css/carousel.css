@@ -1,7 +1,7 @@
 .carousel {
     position: relative;
     width: 100%;
-    
+    max-width: 100%;
     margin: auto;
     overflow: hidden; /* Esconde as imagens que não estão em foco */
     border-radius: 10px;
