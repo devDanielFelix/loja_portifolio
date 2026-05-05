@@ -44,7 +44,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover{
-  color: rgb(0, 163, 70);
+  color: rgb(0, 0, 0);
 }
 
 header nav ul li:last-of-type a {
@@ -61,7 +61,8 @@ header .container {
 .row {
   margin: 0%;
   text-align: center;
-  padding: 5%;
+  padding: 10%;
+  display: block;
   color: #FFCC00;
 }
 

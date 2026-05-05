@@ -1,4 +1,4 @@
-const Products = [
+var Products = [
     {
         image: "catalogo/Denver_broncos_jersey_Sutton.jpg",
         name: "Orange_Denver_Broncos",
