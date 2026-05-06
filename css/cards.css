@@ -1,25 +1,10 @@
-/*-- Botões do cards --*/
-.btn-primary {
-    color: #ffd500;
-    background-color: #191919;
-    border-radius: 50px;
-    justify-content: space-between;
-    border: none;
-}
-
-.btn-primary:hover {
-    color: #191919;
-    background-color: #ffd500;
-}
-
 /*-- cards da Home --*/
-#events-container .card {
+#events-container .cards {
     flex: auto;
     border-radius: 15px;
     padding: 0;
     margin: 5px;
     max-width: 300px;
-    background-color: #ffd500;
 }
 
 .card-image {
@@ -41,4 +26,18 @@
 .card-price {
     font-size: 14px;
     color: #707070;
+}
+
+/*-- Botões do cards --*/
+.btn-primary {
+    color: #ffd500;
+    background-color: #191919;
+    border-radius: 50px;
+    justify-content: space-between;
+    border: none;
+}
+
+.btn-primary:hover {
+    color: #191919;
+    background-color: #ffd500;
 }
