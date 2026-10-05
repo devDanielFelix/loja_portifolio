@@ -16,7 +16,7 @@ var Products = [
     },
 
     {
-        image: "images/catalogo/Buffalo_Bills_Jersey_Allen.jpg",
+        image: "images/catalogo/Buffalo_Bills_Josh_Allen.jpg",
         name: "Blue_Buffalo_Bills",
         price: 349.99,
         category: "Jerseys",

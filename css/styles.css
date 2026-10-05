@@ -1,17 +1,12 @@
 * {
-  font-family: "Poltawski Nowy", serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-}
-
-/*--reset--*/
-* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Poltawski Nowy", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
 }
-/*--end reset--*/
 
 ul {
   padding: 0;
