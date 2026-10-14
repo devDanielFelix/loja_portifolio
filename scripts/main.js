@@ -1,24 +1,24 @@
 const { createApp } = Vue;
 
-    createApp({
-      data() {
-        return {
-          produtos: []
-        };
-      },
-      async mounted() {
-        const resposta = await fetch('produtos.json');
-        this.produtos = await resposta.json();
-      },
-      methods: {
-        formatarNome(nome) {
-          return nome.replaceAll('_', ' ');
-        },
-        formatarPreco(valor) {
-          return valor.toLocaleString('pt-BR', {
-            style: 'currency',
-            currency: 'BRL'
-          });
-        }
-      }
-    }).mount('#app');
+createApp({
+  data() {
+    return {
+      products: []
+    };
+  },
+  async mounted() {
+    const response = await fetch('products.json');
+    this.products = await response.json();
+  },
+  methods: {
+    formatName(name) {
+      return name.replaceAll('_', ' ');
+    },
+    formatPrice(value) {
+      return value.toLocaleString('en-US', {
+        style: 'currency',
+        currency: 'USD'
+      });
+    }
+  }
+}).mount('#app');

@@ -60,11 +60,11 @@
 
     <div id="app">
     <div class="catalogo d-flex flex-wrap gap-3 justify-content-center">
-      <div class="card" v-for="produto in produtos" :key="produto.name">
-        <img :src="produto.image" :alt="produto.name">
-        <h3>{{ formatarNome(produto.name) }}</h3>
-        <p>{{ produto.team }} · {{ produto.category }}</p>
-        <p class="preco">{{ formatarPreco(produto.price) }}</p>
+      <div class="card" v-for="product in products" :key="product.name">
+        <img :src="product.image" :alt="product.name">
+        <h3>{{ formatName(product.name) }}</h3>
+        <p>{{ product.team }} · {{ product.category }}</p>
+        <p class="preco">{{ formatPrice(product.price) }}</p>
         <a href="#" class="btn btn-secondary">buy now</a>
         <a href="#" class="btn btn-secondary">add to cart</a>
       </div>
